@@ -1,8 +1,10 @@
+/**
+ * @module ens
+ */
+
 var ens = {};
 
-ens.arr = function (x) {
-  return x instanceof Array ? x : [];
-};
+ens.arr = require('lib/arr');
 
 ens.str = function (x) {
   return typeof x === 'string' ? x : '';
