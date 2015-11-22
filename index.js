@@ -13,10 +13,7 @@ module.exports = ens;
 */
 
 ens.arr = require('./lib/arr');
-
-ens.str = function (x) {
-  return typeof x === 'string' ? x : '';
-};
+ens.str = require('./lib/str');
 
 ens.num = function (x) {
   return typeof x === 'number' ? x : 1;
