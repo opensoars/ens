@@ -4,7 +4,7 @@
       "lib/*", "index.js"
     ],
     "excluded": [
-      "tests", "doc", "node_modules", "scripts", "old"
+      "test", "doc", "node_modules", "scripts", "coverage", "node_modules"
     ]
   }
 }

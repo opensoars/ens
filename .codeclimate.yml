@@ -1,6 +1,7 @@
 languages:
   JavaScript: true
 exclude_paths:
-  - tests/*
+  - test/*
   - doc/*
-  - old/*
+  - coverage/*
+  - node_modules/*
