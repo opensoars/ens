@@ -11,7 +11,9 @@ describe('fun', function () {
     assert.equal(typeof fun(function () {}) === 'function', true);
   });
   it('returns a function when no data is passed', function () {
-    assert.equal(typeof fun() === 'function', true);
+    var r = fun();
+    assert.equal(typeof r === 'function', true);
+    r();
   });
   it('returns the passed argument when it\'s a function', function () {
     var t = function () {};
