@@ -1,5 +1,5 @@
-/**
- * @module ens
+/*
+* * @module ens
  */
 
 var ens = {};
