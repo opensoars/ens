@@ -14,7 +14,17 @@ Easily ensure data types.
  
 ## Why
 
-`Ens` makes it easy to ensure data types. With JS it's not so easy to ensure data types, it's easy to specify variable defaults though: `test_obj = test_obj || {}`. The problem with this pattern is, when `test_obj` is set to a value which evaluates to true, the default value `{}` won't be bound to `test_obj`. This is where `ens` comes in: `test_obj = ens.obj(test_obj)`. Which results in the binding of an object to `test_obj` no mather what type of data `test_obj` is. A lot cleaner than something like this: `test_obj = (typeof test_obj === 'object' && !(test_obj instanceof Array)) ? test_obj : {}`
+```js
+// Ensure the variable `obj` is an object, the traditional way
+obj = (typeof obj === 'object' && !(obj instanceof Array)) ? obj : {};
+```
+
+```js
+// Ensure the variable obj is an object, using ens.obj
+obj = ens.obj(obj);
+```
+
+`Ens` makes it easy to ensure data types. With JS it's not so easy to ensure data types, it's easy to specify variable defaults though: `obj = obj || {}`. The problem with this pattern is, when `obj` is set to a value which evaluates to true, the default value `{}` won't be bound to `obj`. This is where `ens` comes in: `obj = ens.obj(obj)`. Which results in the binding of an object to `obj` no mather what type of data `obj` is.
 
 
 ## Install
