@@ -15,5 +15,7 @@ Easily ensure data types.
 
 ## Install
 
+`npm install ens`
+
 ## Use
 

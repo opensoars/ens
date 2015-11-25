@@ -1,6 +1,8 @@
-/*
+/* 
+ * Main ens module, this is what you get when you require('ens')
  * @module ens
  */
+
 
 var ens = {};
 
