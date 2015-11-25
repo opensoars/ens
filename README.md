@@ -1,4 +1,4 @@
-# ens (wip)
+# ens
 
 Easily ensure data types.
 
