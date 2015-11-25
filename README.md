@@ -16,9 +16,11 @@ Easily ensure data types.
 
 `Ens` makes it easy to ensure data types. With JS it's not so easy to ensure data types, it's easy to specify variable defaults though: `test_obj = test_obj || {}`. The problem with this pattern is, when `test_obj` is set to a value which evaluates to true, the default value `{}` won't be bound to `test_obj`. This is where `ens` comes in: `test_obj = ens.obj(test_obj)`. Which results in the binding of an object to `test_obj` no mather what data type test_obj is.
 
+
 ## Install
 
 `npm install ens`
+
 
 ## Use
 
