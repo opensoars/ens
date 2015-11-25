@@ -19,3 +19,10 @@ Easily ensure data types.
 
 ## Use
 
+```js
+var ens = require('ens');
+
+function logObjectProperties(obj) {
+  console.log(ens.obj(obj))
+}
+```
