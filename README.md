@@ -27,7 +27,27 @@ Easily ensure data types.
 ```js
 var ens = require('ens');
 
-function logObjectProperties(obj) {
-  console.log(ens.obj(obj))
-}
+ens.arr();       // []
+ens.arr({});     // []
+ens.arr([1, 2]); // [1, 2]
+
+ens.boo();      // true
+ens.boo({});    // true
+ens.boo(false); // false
+
+ens.fun();                   // function () {}
+ens.fun({});                 // function () {}
+ens.fun(function test() {}); // function test () {}
+
+ens.num();   // 1
+ens.num({}); // 1
+ens.num(5);  // 5
+
+ens.obj();         // {}
+ens.obj([]);       // {}
+ens.obj({a: 'b'}); // {a: 'b'}
+
+ens.str();       // ''
+ens.str({});     // ''
+ens.str('test'); // 'test'
 ```
