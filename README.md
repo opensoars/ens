@@ -7,8 +7,7 @@ Easily ensure data types.
 [![Inline docs](http://inch-ci.org/github/opensoars/ens.svg?branch=master)](http://inch-ci.org/github/opensoars/ens)
 [![Codacy Badge](https://api.codacy.com/project/badge/f3e64501763645b9aa483bf83a4dd1d5)](https://www.codacy.com/app/sam_1700/ens)
 [![Code Climate](https://codeclimate.com/github/opensoars/ens/badges/gpa.svg)](https://codeclimate.com/github/opensoars/ens)
-[![Dependency Status](https://david-dm.org/opensoars/ens.svg)](https://david-dm.org/opensoars/ens)
-[![devDependency Status](https://david-dm.org/opensoars/ens/dev-status.svg)](https://david-dm.org/opensoars/ens#info=devDependencies)
+[![Dependency Status](https://www.versioneye.com/user/projects/5893585215b1df003c972a84/badge.svg)](https://www.versioneye.com/user/projects/5893585215b1df003c972a84)
 
 ---
  
