@@ -25,6 +25,7 @@ obj = ens.obj(obj);
 
 `ens` makes it easy to ensure JS data types. With JS, ensuring data types requires a lot of ugly code. It's easy to specify variable defaults though: `obj = obj || {}`. The problem with this pattern is, when `obj` is set to a value which evaluates to true, the default value `{}` won't be bound to `obj`. This is where `ens` comes in: `obj = ens.obj(obj)`. Which results in the binding of an object to `obj` no mather what type of data `obj` is.
 
+`ens` will use the `is` npm module soon, and will support its supported datatypes.
 
 ## Install
 
