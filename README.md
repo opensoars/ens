@@ -2,6 +2,7 @@
 
 Easily ensure data types.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3067cf48a9fb4654999d20938a290f2d)](https://www.codacy.com/app/sam_1700/ens?utm_source=github.com&utm_medium=referral&utm_content=opensoars/ens&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/opensoars/ens.svg)](https://travis-ci.org/opensoars/ens)
 [![Coverage Status](https://coveralls.io/repos/opensoars/ens/badge.svg?branch=master&service=github)](https://coveralls.io/github/opensoars/ens?branch=master)
 [![Inline docs](http://inch-ci.org/github/opensoars/ens.svg?branch=master)](http://inch-ci.org/github/opensoars/ens)
